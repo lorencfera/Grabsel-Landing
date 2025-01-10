@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY landing.html /usr/share/nginx/html/index.html
 EXPOSE 80
