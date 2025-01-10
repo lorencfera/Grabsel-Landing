@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coming Soon</title>
+  <style>
+    /* General Reset */
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    /* Background Image Styling */
+    .bgimg {
+      background-image: url('/pexels-eberhardgross-1367192.jpg'); /* Replace with your image */
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    /* Top Left Logo */
+    .topleft {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 1.2em;
+    }
+
+    /* Bottom Left Text */
+    .bottomleft {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      font-size: 1em;
+    }
+
+    /* Middle Content */
+    .middle {
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+      width: 90%;
+    }
+
+    .middle h1 {
+      font-size: 3em;
+      margin: 0 0 20px 0;
+    }
+
+    .middle p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    hr {
+      margin: 20px auto;
+      border: 1px solid white;
+      width: 50%;
+    }
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+      .middle h1 {
+        font-size: 2.5em;
+      }
+
+      .middle p {
+        font-size: 1em;
+      }
+
+      .topleft, .bottomleft {
+        font-size: 0.9em;
+      }
+
+      hr {
+        width: 70%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .middle h1 {
+        font-size: 2em;
+      }
+
+      .middle p {
+        font-size: 0.9em;
+      }
+
+      .topleft, .bottomleft {
+        font-size: 0.8em;
+      }
+
+      hr {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bgimg">
+    <div class="topleft" style="display: flex;">
+        <img width="170" src="/B (3) (1).png" alt="">
+      <p style="margin-top: 76px;
+    font-size: 28px;">Grabsel</p>
+    </div>
+    <div class="middle">
+      <h1>COMING SOON</h1>
+      <hr>
+      <p>Our app is currently being developed by the Grabsel team.  
+        Stay tuned! Best regards from our CEO.  
+        Thanks for your patience — it will be worth the wait!  
+    </p>  <br>
+    <p>We’re creating a groundbreaking social media app that redefines the way you connect and interact.  
+        It’s the biggest innovation in the social media experience, designed to bring people closer and  
+        make every moment more engaging. Get ready for something extraordinary!  
+    </p>
+    </div>
+    <div class="bottomleft">
+      <p>© grabsel.com, Inc. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
