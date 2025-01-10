@@ -10,7 +10,7 @@ COPY style.css /usr/share/nginx/html/style.css
 COPY script.js /usr/share/nginx/html/script.js
 
 # Copy the images
-COPY B_3_1.png /usr/share/nginx/html/B_3_1.png
+COPY B.png /usr/share/nginx/html/B.png
 COPY pexels-eberhardgross-1367192.jpg /usr/share/nginx/html/pexels-eberhardgross-1367192.jpg
 
 # Expose port 80
